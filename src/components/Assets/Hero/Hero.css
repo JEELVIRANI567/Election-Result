@@ -1,0 +1,55 @@
+main {
+    padding: 20px;
+}
+
+.hero h1 {
+   text-align: center;
+   font-size: xx-large;
+   font-weight: 800;
+   margin-bottom: 20px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.result-card {
+    border: 2px solid #cc1c1c;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+.result-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #606060;
+}
+
+.result-card p {
+    margin: 5px 0;
+}
+
+.stateName {
+    color: #000000;
+}
+
+.won {
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+}
+
+.candidate {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.party {
+    color: #1565c0;
+}
